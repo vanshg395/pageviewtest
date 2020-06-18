@@ -15,12 +15,18 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Just Bake Admin',
+      title: 'Web Template',
       theme: ThemeData(
         primaryColor: Color(0xFF1188E3),
         accentColor: Color(0xFF292827),
         canvasColor: Colors.white,
         textTheme: TextTheme(
+          headline3: TextStyle(
+            color: Colors.white,
+          ),
+          headline4: TextStyle(
+            color: Colors.white,
+          ),
           headline5: TextStyle(
             color: Colors.white,
           ),
